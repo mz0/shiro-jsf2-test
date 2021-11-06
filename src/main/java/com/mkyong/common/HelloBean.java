@@ -12,10 +12,10 @@ import java.util.List;
 public class HelloBean implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+
 	private String name;
 
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
@@ -23,11 +23,11 @@ public class HelloBean implements Serializable {
 		this.name = name;
 	}
 
-    public List getItems() {
-        List<String> res = new ArrayList<String>();
-        res.add("111111");
-        res.add("222222");
+	public List getItems() {
+		List<String> res = new ArrayList<String>();
+		res.add("111111");
+		res.add("222222");
 
-        return res;
-    }
+		return res;
+	}
 }
